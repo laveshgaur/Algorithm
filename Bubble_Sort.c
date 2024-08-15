@@ -39,4 +39,4 @@ int main(){
 	else{
 		printf("Your entered elements are not equal to %d \n",n);
 	}
-}
+} 
