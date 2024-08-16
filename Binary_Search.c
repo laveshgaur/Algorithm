@@ -28,4 +28,4 @@ int main(){
 	scanf("%d",&value);
 	binarySearch(arr,value,n);
 	return 0;
-}
+} 
