@@ -25,6 +25,7 @@ int RecursiveBinarySearch(int arr[],int low,int high,int value){
     }
 }
 int main(){
+    printf("Hey, I am Recursive Binary Search.\n");
     int elements=1;
     int arr[elements];
     printf("Enter elements of array : ");
@@ -39,9 +40,9 @@ int main(){
     scanf("%d",&value);
     int answer=RecursiveBinarySearch(arr,0,elements-1,value);
     if (answer==-1){
-        printf("Not found ");
+        printf("Not found\n");
     }
     else{
-        printf("Index is %d ",answer);
+        printf("Index is %d\n",answer);
     }
 }
