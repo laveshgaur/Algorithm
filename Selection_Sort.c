@@ -18,6 +18,7 @@ void selectionSort(int arr[],int n){
 	for(int i=0;i<n;i++){
 			printf("%d ",arr[i]);
 	}
+	printf("\n");
 }
 int main(){
 	int n,elements;
@@ -26,6 +27,7 @@ int main(){
 	int arr[n];
 	elements=0;
     //input in array
+	printf("Enter elements of array : ");
 	for(int i=0;;i++){
 		scanf("%d",&arr[i]);
 		elements++;
