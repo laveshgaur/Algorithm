@@ -11,20 +11,23 @@ int binarySearch(int arr[],int value,int n){
 			low=mid+1;
 		}
 		else{
-			printf("%d",mid);
+			printf("Index is %d\n",mid);
 			return 0;
 		}
 	}
-	printf("Not found");
+	printf("Not found\n");
 	return 0;
 }
 int main(){
 	int n,value;
+	printf("Enter number of elements : ");
 	scanf("%d",&n);
 	int arr[n];
+	printf("Enter elements of array : ");
 	for(int i=0;i<n;i++){
 		scanf("%d",&arr[i]);
 	}
+	printf("Enter value for search : ");
 	scanf("%d",&value);
 	binarySearch(arr,value,n);
 	return 0;
