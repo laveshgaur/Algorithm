@@ -20,6 +20,7 @@ int binarySearch(int arr[],int value,int n){
 }
 int main(){
 	int n,value;
+	printf("Hey, I am Binary Search.\n");
 	printf("Enter number of elements : ");
 	scanf("%d",&n);
 	int arr[n];
