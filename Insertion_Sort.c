@@ -12,11 +12,15 @@ void insertionSort(int arr[],int n){
     for(int i=0;i<n;i++){
         printf("%d ",arr[i]);
     }
+	printf("\n");
 }
 int main(){
+	printf("Hey, I am Insertion Sort.\n");
 	int n,elements;
+	printf("Enter number of elements : ");
 	scanf("%d",&n);
 	int arr[n];
+	printf("Enter elements of array : ");
 	char c;
 	elements=0;
 	for(int i=0;c!='\n';i++){
@@ -28,6 +32,6 @@ int main(){
 		insertionSort(arr,n);
 	}
 	else{
-		printf("Your entered elements are not equal to %d ",n);
+		printf("Your entered elements are not equal to %d \n",n);
 	}
 }
