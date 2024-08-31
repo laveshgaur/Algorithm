@@ -44,7 +44,7 @@ void Counting_Sort(int arr[],int n){
     for(int i=0;i<n;i++){
         count[arr[i]]++;// this will update count frequency
     }
-    int index=0;
+    int index=0;//this is for continuous insertion of elements in sorted array
     for(int i=0;i<max+1;i++){
         if(count[i]!=0){
             for(int j=0;j<count[i];j++){
