@@ -42,7 +42,7 @@ void Counting_Sort(int arr[],int n){
         count[i]=0;
     }
     for(int i=0;i<n;i++){
-        count[arr[i]]++;
+        count[arr[i]]++;// this will update count frequency
     }
     int index=0;
     for(int i=0;i<max+1;i++){
