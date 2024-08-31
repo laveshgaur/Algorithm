@@ -1,6 +1,6 @@
 #include<stdio.h>
 void Counting_Sort(int arr[],int n);
-int getMax(int arr[],int n);//it will find maximum number in array
+int getMax(int arr[],int n);//it will find maximum number in array 
 int main(){
     printf("Hey, I am counting sort algorithm\n");
     printf("Enter number of elements : ");
