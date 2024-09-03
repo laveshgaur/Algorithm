@@ -2,6 +2,7 @@
 void shellSort(int arr[],int n);
 int main(){
     int n;
+    printf("Hey, I am Shell Sort.\n");
     printf("Enter number of elements : " );
     scanf("%d",&n);
     int elements=0;
